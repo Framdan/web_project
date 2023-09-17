@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <nav>
+        <h1>AF</h1>
+        <ul class="">
+            <a href="./index.html"><li>HOME</li></a>
+            <a href="./aboutus.html"><li>ABOUT US</li></a>
+            <a href="./contact.html"><li>CONTACT</li></a>
+            <a href="./login.html"><li>LOGIN</li></a>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="form">
+            <h1>SIGN UP</h1>
+            <form action="registration_process.php" method="POST"> <!-- Added action and method for form submission -->
+                <input type="text" name="email" placeholder="EMAIL..." class="email input" required> <br>
+                <input type="password" name="password" placeholder="PASSWORD..." class="pass input" required> <br>
+                <input type="password" name="confirm_password" placeholder="CONFIRM PASSWORD..." class="pass input" required> <br>
+                <input type="text" name="phone" placeholder="PHONE..." class="phone input" required> <br>
+                
+                <select name="user_role" id="roles">
+                    <option value="renter">RENTOR</option>
+                    <option value="landlord">LANDLORD</option>
+                </select> <br>
+                
+                <button type="submit" class="send">CREATE</button> <br>
+            </form>
+            <p>Already have an account? <a href="./login.html" style="cursor: pointer; text-decoration: none; color: green;">LOG IN</a></p>
+        </div>
+    </div>
+</body>
+</html>

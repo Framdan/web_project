@@ -1,0 +1,46 @@
+.about{
+    background-color: rgba(185, 126, 42, 0.619);
+    padding: 20px 49px;
+    border-radius: 30px;
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    text-align: center; 
+    font-size:20;
+}
+.p{
+    text-decoration:none;
+    text-align: justify;
+  
+}
+.aboutusulli{
+    list-style-type:none;
+    text-align: center;
+   
+}
+nav{
+    display: flex; 
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    padding: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    /* background-color: aqua; */
+}
+nav ul li:hover{
+    background: orange;
+}
+nav h1{
+    background-color:orange;
+    padding: 10px;
+    border-radius: 100%;
+}

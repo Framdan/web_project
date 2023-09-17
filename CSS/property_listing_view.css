@@ -1,0 +1,52 @@
+/* Property Listing Form Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+.property-listing-form {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.property-listing-form h1 {
+    color: #ff6600; /* Orange text color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.property-listing-form input[type="text"],
+.property-listing-form textarea,
+.property-listing-form input[type="number"],
+.property-listing-form input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.property-listing-form button[type="submit"] {
+    background-color: #ff6600; /* Orange button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.property-listing-form button[type="submit"]:hover {
+    background-color: #ff4d00; /* Darker orange on hover */
+}
+
+/* Additional styling can be added as needed */
